@@ -1,0 +1,21 @@
+{
+    "name": "nigatedev/parser",
+    "description": "Nigatedev framework json, yaml, php, text plain, diyan template engine, etc, files parser",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nigatedev\\Framework\\Parser\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Abass Ben Cheik",
+            "email": "cheikabassben@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/yaml": "v5.3.6"
+    }
+}
