@@ -20,20 +20,19 @@ namespace Nigatedev\Framework\Parser;
 class Parser extends AbstractParser
 {
   
-  private $data;
+    private $data;
   
  /**
   * Constructor
   */
-  public function __construct($data)
-  {
-      $this->data = $data;
+    public function __construct($data)
+    {
+        $this->data = $data;
       
-      if (file_exists($this->data)) {
-          if($this->extensionIsSupported($this->data)) {
-             $this->parseIt($this->data);
-          }
-      }
-      
-  }
+        if (file_exists($this->data)) {
+            if ($this->extensionIsSupported($this->data)) {
+                $this->parseIt($this->data);
+            }
+        }
+    }
 }
