@@ -1,17 +1,19 @@
 {
-    "name": "nigatedev/parser",
-    "description": "Nigatedev framework json, yaml, php, text plain, diyan template engine, etc, files parser",
+    "name": "niga/parser",
+    "description": "Niga framework parser",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Nigatedev\\Framework\\Parser\\": ""
+            "Niga\\Framework\\Parser\\": ""
         }
     },
     "authors": [
         {
-            "name": "Abass Ben Cheik",
-            "email": "cheikabassben@gmail.com"
+            "name": "Abass Dev",
+            "email": "abass@abassdev.com",
+            "role": "Lead Developer",
+            "homepage": "https://abassdev.com"
         }
     ],
     "minimum-stability": "dev",

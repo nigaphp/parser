@@ -1,19 +1,19 @@
 <?php declare(strict_types=1);
 /*
- * This file is part of the Nigatedev PHP framework package
+ * This file is part of the Niga PHP framework package
  *
- * (c) Abass Ben Cheik <abass@todaysdev.com>
+ * (c) Abass Dev <abass@abassdev.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * data that was distributed with this source code.
  */
 
-namespace Nigatedev\Framework\Parser\Exception;
+namespace Niga\Framework\Parser\Exception;
 
 /**
  * Parsing failure exception
  *
- * @author Abass Ben Cheik <abass@todaysdev.com>
+ * @author Abass Dev <abass@abassdev.com>
  */
 class ParseException extends \Exception
 {
